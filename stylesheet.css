@@ -1,0 +1,116 @@
+/* Tata letak untuk Smartphone */
+@media (max-width: 750px) {
+
+    /* HEADER */
+    .header-list {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+        float: right;
+        padding: 25px 15px;
+    }
+
+    .header-logo {
+        float: left;
+        font-size: 15px;
+        padding: 25px 30px;
+        letter-spacing: 10px;
+        font-weight: bold;
+    }
+
+    /* HEADER */
+
+
+    /* MAIN */
+
+    .movie-title {
+        font-size: 24px;
+    }
+
+    .movie {
+        padding: 20px 20px;
+        text-align: center;
+        margin: auto;
+        /* max-width: 1170px; */
+
+    }
+
+    .movie-title span {
+        color: #E50914;
+        height: 20px;
+        display: inline-block;
+        /* width: 100%; */
+        border: solid 3px;
+    }
+
+    .movie-image {
+        /* width: 20px; */
+        margin: 5px;
+        width: 30%;
+        max-width: 100%;
+        height: 220px;
+        overflow: hidden;
+        object-fit: fill;
+        aspect-ratio: 1/1;
+        /* background-size: cover; */
+    }
+
+    .movie-image img {
+        display: block;
+        width: 150px;
+        height: auto;
+        object-fit: cover;
+        background-position: center;
+        aspect-ratio: auto 3/4;
+    }
+
+    /* MAIN */
+    /* Proyek */
+    .flex-list {
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+
+    .flex-list li {
+        margin: 0 auto;
+    }
+
+    /* Proyek */
+
+    /* TENTANG */
+    .tentangs h2 {
+        font-size: medium;
+    }
+
+    /* TENTANG */
+
+    /* HUBUNGI */
+    input {
+        width: 350px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius: 10px;
+    }
+
+    textarea {
+        width: 350px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius: 10px;
+    }
+
+    button {
+        width: 200px;
+    }
+
+    /* HUBUNGI */
+}
