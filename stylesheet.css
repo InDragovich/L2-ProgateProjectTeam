@@ -1,234 +1,274 @@
 /* Tata letak untuk Tablet */
 @media (max-width: 1000px) {
-    .judul h1 {
-      font-size: 45px;
-    }
+  .judul h1 {
+    font-size: 45px;
+  }
 
-    .judul h2 {
-        font-size: 25px;
-    }
+  .judul h2 {
+    font-size: 25px;
+  }
 
-    .plans p {
-        font-size: 21px;
-    }
+  .plans p {
+    font-size: 21px;
+  }
 
-    .input-email {
-        width: 250px;
-        font-size: 16px;
-    }
+  .input-email {
+    width: 250px;
+    font-size: 16px;
+  }
 
-    .btn {
-        width: 90px;
-        font-size: 16px;
-    }
-    
-    .movie-title {
-        font-size: 20px;
-    }
+  .btn {
+    width: 90px;
+    font-size: 16px;
+  }
 
-    .movie {
-        padding: 20px 20px;
-        text-align: center;
-        margin: auto;
-        /* max-width: 1170px; */
+  .movie-title {
+    font-size: 20px;
+  }
 
-    }
+  .movie {
+    padding: 20px 20px;
+    text-align: center;
+    margin: auto;
+    /* max-width: 1170px; */
+  }
 
-    .movie-title span {
-        color: #E50914;
-        height: 20px;
-        display: inline-block;
-        /* width: 100%; */
-        border: solid 3px;
-    }
+  .movie-title span {
+    color: #e50914;
+    height: 20px;
+    display: inline-block;
+    /* width: 100%; */
+    border: solid 3px;
+  }
 
-    .movie-image {
-        /* width: 20px; */
-        margin: 5px;
-        /* width: 30%; */
-        /* max-width: 100%; */
-        height: 200px;
-        overflow: hidden;
-        object-fit: fill;
-        aspect-ratio: 3/6;
-    }
+  .movie-image {
+    /* width: 20px; */
+    margin: 5px;
+    /* width: 30%; */
+    /* max-width: 100%; */
+    height: 200px;
+    overflow: hidden;
+    object-fit: fill;
+    aspect-ratio: 3/6;
+  }
 
-    .movie-image img {
-        display: block;
-        width: 140px;
-        height: 200px;
-        object-fit: cover;
-        aspect-ratio: auto 3/4;
-    }
-}
+  .movie-image img {
+    display: block;
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+    aspect-ratio: auto 3/4;
+  }
 
-/* Tata letak untuk Smartphone */
-@media (max-width: 670px) {
+  /* FOOTER */
 
+  /* FOOTER */
+
+  /* Tata letak untuk Smartphone */
+  @media (max-width: 670px) {
     /* HEADER */
     .header-list {
-        display: none;
+      display: none;
     }
 
     .icon {
-        display: block;
-        float: right;
-        padding: 25px 15px;
+      display: block;
+      float: right;
+      padding: 25px 15px;
     }
 
     .header-logo {
-        float: left;
-        font-size: 15px;
-        padding: 25px 30px;
-        letter-spacing: 10px;
-        font-weight: bold;
+      float: left;
+      font-size: 15px;
+      padding: 25px 30px;
+      letter-spacing: 10px;
+      font-weight: bold;
     }
 
     /* HEADER */
 
-
     /* MAIN */
-    
+
     .judul h1 {
-        font-size: 30px;
+      font-size: 30px;
     }
 
     .judul h2 {
-        font-size: 17px;
+      font-size: 17px;
     }
 
     .comment {
-        font-size: 14px;
+      font-size: 14px;
     }
 
     .movie-comment {
-        margin-right: 10px;
+      margin-right: 10px;
     }
-  
+
     .language {
-        margin-right: 10px;
+      margin-right: 10px;
     }
 
     .plans p {
-        font-size: 15px;
+      font-size: 15px;
     }
 
     .input-email {
-        width: 175px;
-        font-size: 14px;
+      width: 175px;
+      font-size: 14px;
     }
-  
+
     .btn {
-        width: 80px;
-        font-size: 14px;
+      width: 80px;
+      font-size: 14px;
     }
 
     .movie-title {
-        font-size: 20px;
+      font-size: 20px;
     }
 
     .movie {
-        padding: 20px 20px;
-        text-align: center;
-        margin: auto;
-        /* max-width: 1170px; */
-
+      padding: 20px 20px;
+      text-align: center;
+      margin: auto;
+      /* max-width: 1170px; */
     }
 
     .movie-title span {
-        color: #E50914;
-        height: 20px;
-        display: inline-block;
-        /* width: 100%; */
-        border: solid 3px;
+      color: #e50914;
+      height: 20px;
+      display: inline-block;
+      /* width: 100%; */
+      border: solid 3px;
     }
 
     .movie-image {
-        /* width: 20px; */
-        margin: 5px;
-        width: 30%;
-        max-width: 300px;
-        height: 300px;
-        overflow: hidden;
-        object-fit: fill;
-        /* aspect-ratio: 1/1; */
-        /* background-size: cover; */
+      /* width: 20px; */
+      margin: 5px;
+      width: 30%;
+      max-width: 300px;
+      height: 300px;
+      overflow: hidden;
+      object-fit: fill;
+      /* aspect-ratio: 1/1; */
+      /* background-size: cover; */
     }
 
     .movie-image img {
-        display: block;
-        width: 100%;
-        height: auto;
-        object-fit: fill;
-        aspect-ratio: auto 3/4;
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: fill;
+      aspect-ratio: auto 3/4;
     }
 
     /* MAIN */
     /* Proyek */
     .flex-list {
-        display: flex;
-        flex-wrap: wrap;
-        /* flex-direction: column; */
+      display: flex;
+      flex-wrap: wrap;
+      /* flex-direction: column; */
     }
 
     .flex-list li {
-        margin: 0 auto;
+      margin: 0 auto;
     }
 
     /* Proyek */
 
     /* TENTANG */
     .tentangs h2 {
-        font-size: medium;
+      font-size: medium;
     }
 
     /* TENTANG */
 
     /* HUBUNGI */
     input {
-        width: 350px;
-        margin-top: 10px;
-        margin-bottom: 30px;
-        padding: 20px;
-        font-size: 18px;
-        border: 1px solid #dee7ec;
-        border-radius: 10px;
+      width: 350px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      padding: 20px;
+      font-size: 18px;
+      border: 1px solid #dee7ec;
+      border-radius: 10px;
     }
 
     textarea {
-        width: 350px;
-        margin-top: 10px;
-        margin-bottom: 30px;
-        padding: 20px;
-        font-size: 18px;
-        border: 1px solid #dee7ec;
-        border-radius: 10px;
+      width: 350px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      padding: 20px;
+      font-size: 18px;
+      border: 1px solid #dee7ec;
+      border-radius: 10px;
     }
 
     button {
-        width: 200px;
+      width: 200px;
     }
 
     /* HUBUNGI */
-}
 
-@media (max-width: 700px) {
+    /* FOOTER */
+
+    .footer {
+      background-color: black;
+      height: 160px;
+      padding: 20px;
+    }
+
+    .footer-logo {
+      float: left;
+      font-size: 28px;
+      letter-spacing: 5px;
+      font-weight: bold;
+      color: #e50914;
+    }
+
+    .footer-list {
+      font-size: 15px;
+      padding: 0;
+      float: right;
+      box-sizing: border-box;
+      width: 35%;
+      color: #fff;
+    }
+
+    .footer-list li {
+      font-size: 13px;
+      padding: 10px;
+      border-left: solid #e50914 2px;
+      padding: 0;
+      padding-left: 3px;
+      margin: 5px;
+      flex-wrap: nowrap;
+    }
+
+    .footer-2 {
+      font-size: 10px;
+    }
+    /* FOOTER */
+  }
+
+  @media (max-width: 700px) {
     .movie-image {
-        /* width: 20px; */
-        margin: 5px;
-        /* width: 29%; */
-        height: auto;
-        overflow: hidden;
-        object-fit: fill;
-        aspect-ratio: 3/4.4;
-        /* background-size: cover; */
+      /* width: 20px; */
+      margin: 5px;
+      /* width: 29%; */
+      height: auto;
+      overflow: hidden;
+      object-fit: fill;
+      aspect-ratio: 3/4.4;
+      /* background-size: cover; */
     }
 
     .movie-image img {
-        display: block;
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-        aspect-ratio: auto 3/4;
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      aspect-ratio: auto 3/4;
     }
+  }
 }
