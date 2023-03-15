@@ -1,7 +1,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
 body {
@@ -125,17 +124,17 @@ li {
 /* JUDUL */
 
 .movie-trending {
-    /* background-color: black; */
+    background-color: black;
     color: white;
 }
 
 .movie-new-release {
-    /* background-color: black; */
+    background-color: black;
     color: white;
 }
 
 .movie-for-you {
-    /* background-color: black; */
+    background-color: black;
     color: white;
 }
 
