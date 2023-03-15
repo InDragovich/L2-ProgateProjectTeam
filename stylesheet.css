@@ -1,10 +1,30 @@
 /* Tata letak untuk Tablet */
 @media (max-width: 1000px) {
+    .judul h1 {
+      font-size: 45px;
+    }
+
+    .judul h2 {
+        font-size: 25px;
+    }
+
+    .plans p {
+        font-size: 21px;
+    }
+
+    .input-email {
+        width: 250px;
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 90px;
+        font-size: 16px;
+    }
+    
     .movie-title {
         font-size: 20px;
     }
-
-
 
     .movie {
         padding: 20px 20px;
@@ -43,7 +63,7 @@
 }
 
 /* Tata letak untuk Smartphone */
-@media (max-width: 750px) {
+@media (max-width: 670px) {
 
     /* HEADER */
     .header-list {
@@ -68,6 +88,40 @@
 
 
     /* MAIN */
+    
+    .judul h1 {
+        font-size: 30px;
+    }
+
+    .judul h2 {
+        font-size: 17px;
+    }
+
+    .comment {
+        font-size: 14px;
+    }
+
+    .movie-comment {
+        margin-right: 10px;
+    }
+  
+    .language {
+        margin-right: 10px;
+    }
+
+    .plans p {
+        font-size: 15px;
+    }
+
+    .input-email {
+        width: 175px;
+        font-size: 14px;
+    }
+  
+    .btn {
+        width: 80px;
+        font-size: 14px;
+    }
 
     .movie-title {
         font-size: 20px;
