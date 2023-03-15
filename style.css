@@ -1,7 +1,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
 body {
@@ -62,18 +61,15 @@ li {
 .judul h1 {
   font-size: 64px;
   letter-spacing: 8px:
-  background-color: none;
 }
 
 .judul h2 {
   font-size: 40px;
   font-weight: normal;
-  background-color: none;
 }
 
 .comment {
   padding-top: 20px;
-  background-color: none;
 }
 
 .movie-comment {
@@ -90,7 +86,6 @@ li {
 
 .plans {
   padding: 20px;
-  background-color: none;
 }
 
 .plans p {
@@ -127,6 +122,10 @@ li {
 }
 
 /* JUDUL */
+
+.body {
+    background-color: black;
+}
 
 .movie-trending {
     color: white;
