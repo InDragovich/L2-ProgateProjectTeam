@@ -52,6 +52,7 @@ li {
   padding: 100px 0px 100px 0px;
   text-align: center;
   margin: auto;
+  background-color: black;
   background-image: url("./src/bg1.png");
   background-size: cover;
   color: white;
