@@ -8,6 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   max-width: 1440px;
   margin: 0 auto;
+  background-color: black;
 }
 
 a {
@@ -175,7 +176,7 @@ li {
 }
 
 .movie-image img {
-  height: auto;
+  height: 295px;
   transition: transform 0.5s;
 }
 
