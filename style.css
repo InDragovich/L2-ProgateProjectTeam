@@ -265,6 +265,14 @@ button:hover {
 }
 
 /* Hubungi */
+.content-form{
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.contact-submit{
+  background-color:#e50914;
+}
 
 /* FOOTER */
 .footer {
