@@ -17,7 +17,6 @@ a {
 
 /* HEADER */
 .header {
-  background-color: rgb(53, 53, 53);
   color: #fff;
   height: 65px;
 }
@@ -28,10 +27,22 @@ a {
   padding: 20px 30px;
   letter-spacing: 8px;
   font-weight: bold;
+  height: 87px;
+  width: 300px;
+}
+
+.chat, .notif{
+  float: right;
+}
+
+.profile{
+  float: right;
 }
 
 .header-list {
   font-size: 12px;
+  background-color: black;
+  padding: 30px 30px;
 }
 
 li {
