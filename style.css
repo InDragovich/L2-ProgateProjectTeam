@@ -266,9 +266,13 @@ button:hover {
 }
 
 /* Hubungi */
-.content-form{
+.content-form {
   padding: 10px;
   margin-top: 10px;
+}
+
+.content-form h3 {
+  color: white;
 }
 
 .contact-submit{
